@@ -2,7 +2,6 @@ body {
     background: url(https://scontent.fiev11-1.fna.fbcdn.net/v/t31.0-8/10669006_719751461428684_8388243343545375798_o.jpg?_nc_cat=0&oh=4f707beba1596cffcf84fad65c1186f7&oe=5C0EFFEA);
     background-size: cover;
     background-position: center;
-    
 }
 
 html {
@@ -12,8 +11,7 @@ html {
 
 .jumbotron {
     background: rgba(255, 255, 255, .7);
-    height: : 10%;
-    padding: 10px;
+    height: 10%;
     width: 100%;
 }
     
@@ -21,18 +19,34 @@ html {
    margin: 0 0 0 10%;
    width: 90%;
 }
+
 a {
     display: flex;
     width: 130px;
     height: 130px;
-    }
- .btn-secondary {
+}
+
+.btn-secondary {
     background: rgba(255, 255, 255, .7);
     color: #37474f;
     border: none;
     margin: 5%;
-
-
 }
 
+a:visited  {
+    color: #37474f; text-decoration: none;
+}
+
+a:hover {
+    color: #000000; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links {
+   color: #37474f; 
+   width: 0;
+   height: 0;
+   white-space: pre-line;
+}
 
